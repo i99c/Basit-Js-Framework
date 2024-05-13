@@ -1,0 +1,84 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* Form Container */
+ .form-container {
+     width: 400px;
+     margin: 0 auto;
+ }
+
+ /* Form Input */
+ .form-input {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+
+ /* Submit Button */
+ .form-submit {
+     width: 100%;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     background-color: #007bff;
+     color: #fff;
+     cursor: pointer;
+ }
+
+ /* Error Message */
+ .error {
+     color: #dc3545;
+     font-size: 14px;
+ }
+
+ /* Theme Button */
+ .theme-button {
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ /* Dark Theme */
+ .dark-theme {
+     background-color: #222;
+     color: #fff;
+ }
+
+ /* Light Theme */
+ .light-theme {
+     background-color: #fff;
+     color: #333;
+ }
+
+ /* Menu Button */
+ .menu-button {
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ /* Menu Content */
+ .menu-content {
+     display: none;
+     position: absolute;
+     background-color: #fff;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     padding: 10px;
+     border-radius: 5px;
+ }
+
+ /* Show Menu Content */
+ .menu-content.show {
+     display: block;
+ }
